@@ -1,0 +1,38 @@
+body, section, article, input, button{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Tahoma;
+}
+section{
+    width: 300px;
+    margin: 0px auto;
+}
+article{
+    height: 100px;
+    text-align: center;
+}
+input, p{
+    background: #234465;
+    color: #FF9416;
+    width: 300px;
+    height: 40px;
+    padding: 0px 0px 0px 15px;
+    border: 0px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+p{
+    line-height: 40px;
+    text-align: left;
+    padding-left: 15px;
+}
+button{
+    background: #FFFFFF;
+    border: 2px solid #234465;
+    width: 100px;
+    height: 30px;
+    margin: 35px 0px 0px 0px;
+    cursor: pointer;
+}
