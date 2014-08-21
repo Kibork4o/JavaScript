@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link rel="stylesheet" href="TicTacToe.css" type="text/css" />
+<script src="TicTacToe.js"></script>
+<script>
+function getId()
+{
+	return this.id;
+}
+window.onload=function()
+{
+	document.getElementById('whichTurn').value=0;
+	var button=document.getElementById('ba4kator');
+	button.onclick=numOfClicks;
+	var part=document.getElementsByClassName('parts');	
+	for(var i=0; i<part.length; i++) { 
+	  	part[i].onclick=whichPic;
+	}
+	//part.onclick=whichPic;
+}
+</script>
+</head>
+<body>
+<div id='table' class='table'>
+<span class='parts' id='1' onClick="whichPic(this)"></span><span class='parts' id='2'></span><span class='parts' id='3'></span>
+<span class='parts' id='4'></span><span class='parts' id='5'></span><span class='parts' id='6'></span>
+<span class='parts' id='7'></span><span class='parts' id='8'></span><span class='parts' id='9'></span>
+</div>
+<button id="ba4kator">Нтис</button>
+<input type='text' id='whichTurn' />
+</body>
+</html>

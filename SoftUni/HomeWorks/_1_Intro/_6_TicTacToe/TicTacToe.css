@@ -1,0 +1,17 @@
+body, span, div{
+	margin: 0px;
+	padding: 0px;
+}
+.table{
+	width: 330px;
+	height: 315px;
+	border: 1px solid red;
+}
+.parts{
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	border: 1px solid green;
+	margin: -1px 5px 5px 5px;
+	vertical-align:top;
+}

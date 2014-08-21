@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script src="cyrcle-area.js"></script>
+<script>
+function aidebeee(){
+	var takeIt=document.getElementById('areaHolder');
+	var result=calcCirceArea(7) + "<br />";
+	result+=calcCirceArea(1.5) + "<br />";
+	result+=calcCirceArea(20) + "<br />";
+	takeIt.innerHTML=result;
+}
+window.onload=aidebeee;
+</script>
+</head>
+
+<body>
+<div id='areaHolder' style="width: 300px;height: 300px; border: 1px solid red;">
+</div>
+</body>
+</html>

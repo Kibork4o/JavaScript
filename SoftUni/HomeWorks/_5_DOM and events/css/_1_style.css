@@ -1,0 +1,10 @@
+.likeButton{
+    color: blue;
+    font-size: 20px;
+    cursor: pointer;
+}
+.unLikeButton{
+     color: blue;
+     font-size: 20px;
+     cursor: pointer;
+ }
